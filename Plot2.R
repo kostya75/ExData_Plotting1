@@ -1,6 +1,6 @@
 #plot2.R
 
-data1<-read.csv("C:/Users/kostya2/Documents/R/DS/EX/household_power_consumption.txt",
+data1<-read.csv("./household_power_consumption.txt",
                 header = TRUE,sep=";",na.strings = "?", stringsAsFactors = FALSE)
 
 data1$Date_new<-as.Date(data1$Date,format="%d/%m/%Y")
